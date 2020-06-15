@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     .section {
 
         &-title {
-
+            margin-bottom: 100px;
             &__label {
                 text-transform: uppercase;
                 font-size: 14px;
@@ -253,6 +253,9 @@ h1, h2, h3, h4, h5, h6 {
             margin-bottom: 40px;
         }
     }
+    .active {
+        color: #1434E1;
+    }
     &-tabs {
         list-style: none;
         margin-left: 60px;
@@ -263,8 +266,44 @@ h1, h2, h3, h4, h5, h6 {
             text-decoration: none;
             color: #8D8D8D;
         }
-        li.active {
-            color: #1434E1;
+    }
+    &-wrap {
+        margin-top: 108px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__item {
+            margin-bottom: 30px;
+            position: relative;
+            transition: all 0.5s ease;
+            img {
+                transition: all 0.5s ease;
+            }
+            
+            &:hover  {
+                -moz-transform: translate(0px, -12px);
+                -webkit-transform: translate(0px, -12px);
+                -o-transform: translate(0px, -12px);
+                -ms-transform: translate(0px, -12px);
+                transform: translate(0px, -12px);
+                img {
+                    box-shadow: -30px 80px 200px rgba(0,0,0,0.25);
+                }
+                &:after {
+                    content: '';
+                    display: block;
+                    background: url(../img/play.svg);
+                    width: 65px;
+                    height: 65px;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -32px;
+                    margin-top: -32px;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }
