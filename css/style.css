@@ -11,6 +11,18 @@ body h2 {
   font-size: 40px;
 }
 
+.section-title {
+  margin-bottom: 100px;
+}
+
+.section-title__label {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #8f8f8f;
+  letter-spacing: 0.25em;
+  margin-bottom: 40px;
+}
+
 button {
   display: block;
   border: none;
@@ -43,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #151515;
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 .vh-dependent {
@@ -147,18 +163,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .services {
   padding-top: 142px;
-}
-
-.services .section-title {
-  margin-bottom: 100px;
-}
-
-.services .section-title__label {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #8f8f8f;
-  letter-spacing: 0.25em;
-  margin-bottom: 40px;
 }
 
 .services ul, .services li {
@@ -350,6 +354,30 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -32px;
   margin-top: -32px;
   cursor: pointer;
+}
+
+.works-descr {
+  margin-top: 52px;
+}
+
+.testimonials {
+  margin-top: 248px;
+}
+
+.testimonials .section-title__label {
+  margin-bottom: 52px;
+}
+
+.testimonials-person {
+  margin-top: 120px;
+}
+
+.testimonials-person__name {
+  margin-bottom: 13px;
+}
+
+.testimonials-photo {
+  display: block;
 }
 
 .tabs__content {
