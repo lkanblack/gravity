@@ -300,11 +300,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.3em;
-}
-
-.works-tabs a {
-  text-decoration: none;
   color: #8D8D8D;
+  cursor: pointer;
 }
 
 .works-wrap {
@@ -353,5 +350,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -32px;
   margin-top: -32px;
   cursor: pointer;
+}
+
+.tabs__content {
+  display: none !important;
+}
+
+.tabs__content.active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 /*# sourceMappingURL=style.css.map */
