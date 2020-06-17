@@ -459,6 +459,24 @@ h3 {
         }
     }
 }
+@media screen and (max-width: 575px) {
+
+    .clients {
+        &-row {
+            img {
+                width: 75%;
+            }   
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .header .offer-cont__title {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
 .tabs__content {
     display: none !important;
 }
